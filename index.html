@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="container">
-    <header>
-      <div class="header-container container">
+    <header class="header-container">
+      <div class="container">
         <nav class="">
           <a href="./index.html" class="text-decoration logo-font"
             ><span class="logo logo-font">Web</span>Studio</a
@@ -28,24 +28,26 @@
             <li><a href="" class="text-decoration">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="list header-links">
-          <li>
-            <a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a>
-          </li>
-          <li><a href="tel:+380961111111" class="header-contacts">+380961111111</a></li>
-        </ul>
+        <div class="header-links rightside-links">
+          <ul class="list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a>
+            </li>
+            <li><a href="tel:+380961111111" class="header-contacts">+380961111111</a></li>
+          </ul>
+        </div>
       </div>
     </header>
-    <main>
+    <main class="main-container">
       <section class="hero">
         <h1 class="hero-text title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="main-link button-font">Замовити послугу</button>
       </section>
 
-      <section class="">
-        <div class="benefits-section">
+      <section class="benefits-section">
+        <div class="">
           <h2 class="visually-hidden title">Наші переваги</h2>
-          <ul class="list">
+          <ul class="list list-content">
             <li>
               <h3 class="benefits title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="benefits-descr">
@@ -86,22 +88,22 @@
       <section class="">
         <h2 class="section-article title">Наша команда</h2>
         <ul class="list list-content">
-          <li>
+          <li class="team-card">
             <img src="./img/img.jpg" width="270" alt="фото дизайнера" />
             <h3 class="team title">Ігор Дем'яненко</h3>
-            <p class="team spec">Product Designer</p>
+            <p class="team-spec">Product Designer</p>
           </li>
-          <li>
+          <li class="team-card">
             <img src="./img/img_(1).jpg" width="270" alt="фото фронтэнд разработчика" />
             <h3 class="team title">Ольга Рєпіна</h3>
             <p class="team-spec">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-card">
             <img src="./img/img_(2).jpg" width="270" alt="фото маркетинг менеджера" />
             <h3 class="team title">Микола Тарасов</h3>
             <p class="team-spec">Marketing</p>
           </li>
-          <li>
+          <li class="team-card">
             <img src="./img/img_(3).jpg" width="270" alt="фото дизайнера интерфейса" />
             <h3 class="team title">Михайло Єрмаков</h3>
             <p class="team-spec">UI Designer</p>
