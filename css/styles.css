@@ -149,7 +149,6 @@ ul {
 
 .hero {
   background-color: var(--background-color);
-  height: 600px;
   text-align: center;
   margin-top: 0px;
   padding-top: 200px;
@@ -195,6 +194,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-bottom: 4px;
 }
 
 .filter-card {
@@ -231,6 +231,7 @@ ul {
   font-size: 14px;
   line-height: 1.2;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .benefits-descr {
@@ -328,7 +329,7 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 8px;
   margin-bottom: 56px;
 }
 
