@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="container">
+  <body class="">
     <header class="container">
       <div class="container header-container header-links">
         <nav class="header-group">
@@ -36,13 +36,13 @@
         </nav>
       </div>
     </header>
-    <main class="main-container container">
-      <section class="hero section">
+    <main class="main-container">
+      <section class="hero">
         <h1 class="hero-text title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="main-link button-font">Замовити послугу</button>
       </section>
 
-      <section class="benefits-section">
+      <section class="benefits-section section">
         <div class="padding-reset">
           <h2 class="visually-hidden title">Наші переваги</h2>
           <ul class="list list-content">
@@ -74,7 +74,7 @@
         </div>
       </section>
 
-      <section class="section padding-reset">
+      <section class="section padding-reset container">
         <h2 class="section-article title">Чим ми займаємося</h2>
         <ul class="list list-content">
           <li><img src="./img/box_1.jpg" width="370" alt="рабочий процесс, написание кода" /></li>
@@ -83,7 +83,7 @@
         </ul>
       </section>
 
-      <section class="section">
+      <section class="section container">
         <h2 class="section-article title">Наша команда</h2>
         <ul class="list list-content">
           <li class="">
@@ -118,18 +118,20 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="text-decoration logo-font logo-footer"
-        ><span class="logo logo-font">Web</span>Studio</a
-      >
-      <address class="adress-font">
-        <ul class="list footer-contacts">
-          <li><a href="" class="adress list">м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="adress-info list">info@devstudio.com</a>
-          </li>
-          <li><a href="tel:+380961111111 " class="adress-info list">+380961111111</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="./index.html" class="text-decoration logo-font logo-footer"
+          ><span class="logo logo-font">Web</span>Studio</a
+        >
+        <address class="adress-font">
+          <ul class="list footer-contacts">
+            <li><a href="" class="adress list">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="adress-info list">info@devstudio.com</a>
+            </li>
+            <li><a href="tel:+380961111111 " class="adress-info list">+380961111111</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
