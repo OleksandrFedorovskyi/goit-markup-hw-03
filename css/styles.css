@@ -194,7 +194,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .filter-card {
@@ -274,7 +274,6 @@ ul {
   height: 108px;
   left: 1115px;
   top: 1632px;
-  padding-bottom: 30px;
 }
 
 .team {
@@ -288,6 +287,7 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  padding-bottom: 30px;
   margin-top: 10px;
 }
 
