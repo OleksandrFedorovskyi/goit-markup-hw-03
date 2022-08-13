@@ -274,20 +274,20 @@ ul {
   height: 108px;
   left: 1115px;
   top: 1632px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  padding-top: 30px;
 }
 
 .team-spec {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
   margin-top: 10px;
 }
 
